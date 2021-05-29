@@ -21,7 +21,7 @@ Constraints:
   The number of nodes in the list is the range [0, 5000].
   -5000 <= Node.val <= 5000
 """
-from linkedlist import ListNode, generateLinkedList, displayLinkedList
+from utilityhelpers import ListNode, generateLinkedList, displayLinkedList
 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
