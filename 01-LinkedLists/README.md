@@ -27,6 +27,6 @@
 ### Required Challenges
 - [x] <a href="https://leetcode.com/problems/delete-node-in-a-linked-list">Delete Node in Linked List</a></li>
 - [x] <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a></li>
-- [ ] <a href="https://leetcode.com/problems/linked-list-cycle">Linked List Cycle</a></li>
-- [ ] <a href="https://leetcode.com/problems/add-two-numbers">Add two numbers (LSF)</a></li>
+- [x] <a href="https://leetcode.com/problems/linked-list-cycle">Linked List Cycle</a></li>
+- [x] <a href="https://leetcode.com/problems/add-two-numbers">Add two numbers (LSF)</a></li>
 - [ ] <a href="https://leetcode.com/problems/odd-even-linked-list">Odd Even Linked Lists</a></li>
