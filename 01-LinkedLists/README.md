@@ -1,10 +1,10 @@
 # Unit 1: Linked Lists
 ## TODO
 - [x] [PreWork](#PreWork)
-- [ ] Session #1
-- [ ] Session #2
+- [ ] [Session #1](#Session-1)
+- [ ] [Session #2](#Session-2)
 - [ ] HackerRank
-- [ ] Additional Exercises
+- [ ] [Additional Exercises](#Additional-Exercises)
 
 ## Goals
 - Easily build a linked list
@@ -17,16 +17,53 @@
 
 ## Prework
 ### Reading / Review
-<ul>
-<li><a href="https://guides.codepath.org/compsci/Linked-Lists">Overview of Linked Lists</a></li>
-<li><a href="https://guides.codepath.org/compsci/Dummy-Head">Dummy Head</a></li>
-<li><a href="https://guides.codepath.org/compsci/Multiple-Pass">Multiple Pass</a></li>
-<li><a href="https://guides.codepath.org/compsci/Linked-List-Two-Pointer">Linked List Two Pointer</a></li>
-</ul>
+
+- <a href="https://guides.codepath.org/compsci/Linked-Lists">Overview of Linked Lists</a>
+- <a href="https://guides.codepath.org/compsci/Dummy-Head">Dummy Head</a>
+- <a href="https://guides.codepath.org/compsci/Multiple-Pass">Multiple Pass</a>
+- <a href="https://guides.codepath.org/compsci/Linked-List-Two-Pointer">Linked List Two Pointer</a>
+
 
 ### Required Challenges
-- [x] <a href="https://leetcode.com/problems/delete-node-in-a-linked-list">Delete Node in Linked List</a></li>
-- [x] <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a></li>
-- [x] <a href="https://leetcode.com/problems/linked-list-cycle">Linked List Cycle</a></li>
-- [x] <a href="https://leetcode.com/problems/add-two-numbers">Add two numbers (LSF)</a></li>
-- [x] <a href="https://leetcode.com/problems/odd-even-linked-list">Odd Even Linked Lists</a></li>
+- [x] [Delete Node in Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) - Easy
+- [x] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - Easy
+- [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) - Easy
+- [x] [Add two numbers (LSF)](https://leetcode.com/problems/add-two-numbers) - Medium
+- [x] [Odd Even Linked Lists](https://leetcode.com/problems/odd-even-linked-list) - Medium
+
+## Session #1
+UMPIRE method
+
+U - Understand  
+M - Match  
+P - Plan  
+I - Implement   
+R - Review  
+E - Evaluate  
+
+### Walkthrough Examples
+- https://guides.codepath.org/compsci/UMPIRE-Interview-Strategy
+- https://hackmd.io/@zXKevDKYS9a3T9goj4clQA/S1CaDzIiV?type=view
+- https://www.youtube.com/watch?v=W6V7MLE_5X4
+  
+### Practice
+- [ ] [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) - Medium
+- [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - Medium
+
+## Session #2
+
+### Practice
+- [ ] [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Medium
+- [ ] [Rotate List](https://leetcode.com/problems/rotate-list/) - Medium
+
+## Additional Exercises 
+(Optional)
+
+- [ ] <a href="https://leetcode.com/problems/merge-two-sorted-lists">Merge Two Sorted Lists</a>
+- [ ] <a href="https://leetcode.com/problems/intersection-of-two-linked-lists">Intersection of two linked lists</a>
+- [ ] <a href="https://leetcode.com/problems/add-two-numbers-ii">Add two numbers (MSF)</a>
+- [ ] <a href="https://leetcode.com/problems/copy-list-with-random-pointer/">Copy list with random pointer with O(1) extra space beyond the copied list</a>
+- [ ] <a href="https://leetcode.com/problems/linked-list-cycle-ii">Linked List Cycle II</a>
+- [ ] <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii">Remove Duplicates II</a>
+- [ ] <a href="https://leetcode.com/problems/reorder-list">Reorder list</a>
+- [ ] <a href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists</a>
