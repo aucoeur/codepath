@@ -1,6 +1,6 @@
 # Unit 1: Linked Lists
 ## TODO
-- [ ] [PreWork](#PreWork)
+- [x] [PreWork](#PreWork)
 - [ ] Session #1
 - [ ] Session #2
 - [ ] HackerRank
@@ -29,4 +29,4 @@
 - [x] <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a></li>
 - [x] <a href="https://leetcode.com/problems/linked-list-cycle">Linked List Cycle</a></li>
 - [x] <a href="https://leetcode.com/problems/add-two-numbers">Add two numbers (LSF)</a></li>
-- [ ] <a href="https://leetcode.com/problems/odd-even-linked-list">Odd Even Linked Lists</a></li>
+- [x] <a href="https://leetcode.com/problems/odd-even-linked-list">Odd Even Linked Lists</a></li>

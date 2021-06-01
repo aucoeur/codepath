@@ -25,7 +25,7 @@ Constraints:
   0 <= Node.val <= 9
   It is guaranteed that the list represents a number that does not have leading zeros.
 """
-from ..utilities import ListNode, generateLinkedList, displayLinkedList
+from utilities import ListNode, generateLinkedList, displayLinkedList
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -69,7 +69,7 @@ displayLinkedList(l1)
 displayLinkedList(l2)
 
 solution = Solution().addTwoNumbers(l1, l2)
-print(solution)
+displayLinkedList(solution)
 
 """
 Cleaned up Solution

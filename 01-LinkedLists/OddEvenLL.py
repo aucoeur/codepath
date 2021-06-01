@@ -1,5 +1,7 @@
 """ https://leetcode.com/problems/odd-even-linked-list/
-328. Odd Even Linked List   Easy
+328. Odd Even Linked List   Medium
+
+06/01/2021 10:37	Accepted
 
 Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.
 
@@ -23,7 +25,7 @@ Constraints:
 
 Follow up: Could you solve it in O(1) space complexity and O(nodes) time complexity?
 """
-from ..utilities import ListNode, generateLinkedList, displayLinkedList
+from utilities import ListNode, generateLinkedList, displayLinkedList
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -33,8 +35,39 @@ from ..utilities import ListNode, generateLinkedList, displayLinkedList
 
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
-        return ListNode
+        """
+        Time Complexity: O(n)
+        Space Complexity: O(1)
+
+        Intuition:
+        Since first node is considered odd and odd/even indices alternate, can always know that:
+            odd.next ->  even index
+            even.next -> odd index
+        """
+
+        # Base Case: empty or len(1)
+        if not head or not head.next:
+            return head
+
+        # since description says first node considered odd
+        odd = head
+        current = even = head.next # even doesn't change, always points to beginning of even (head.next)
+        # current is temporary placeholder for traversing
+
+        while current and current.next:
+            odd.next = current.next # update odd pointer to next odd
+            odd = odd.next # increment odd
+
+            current.next = odd.next # update even pointer to next even
+            current = current.next # increment current node
+
+        odd.next = even # add even tail to odd.next at the end
+
+        return head
 
 head = [2,1,3,5,6,4,7]
-solution = Solution().oddEvenList(head)
-print(solution)
+# output: 2 -> 3 -> 6 -> 7 -> 1 -> 5 -> 4
+h = generateLinkedList(head)
+displayLinkedList(h)
+solution = Solution().oddEvenList(h)
+displayLinkedList(solution)

@@ -17,6 +17,17 @@ Self-Paced/Observer Coursework from Codepath's Technical Interviewing Course
 | 11   | Review and Project Week       
 | 12   | System Design                 
 
+### Note on Importing Utilities
+- create/activate virtual env:   
+`$ python3 -m venv env`   
+`$ source env/bin/activate`
+- install local package:   
+`$ python -m pip install -e .`
+
+- import: 
+```python
+    from utilities import ListNode
+```
 
 # Summer Technical Interview Prep Course Overview (Advanced)
 
