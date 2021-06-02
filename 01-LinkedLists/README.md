@@ -47,7 +47,7 @@ E - Evaluate
 - https://www.youtube.com/watch?v=W6V7MLE_5X4
   
 ### Practice
-- [ ] [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) - Medium
+- [x] [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) - Medium
 - [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - Medium
 
 ## Session #2
@@ -59,11 +59,11 @@ E - Evaluate
 ## Additional Exercises 
 (Optional)
 
-- [ ] <a href="https://leetcode.com/problems/merge-two-sorted-lists">Merge Two Sorted Lists</a>
-- [ ] <a href="https://leetcode.com/problems/intersection-of-two-linked-lists">Intersection of two linked lists</a>
-- [ ] <a href="https://leetcode.com/problems/add-two-numbers-ii">Add two numbers (MSF)</a>
-- [ ] <a href="https://leetcode.com/problems/copy-list-with-random-pointer/">Copy list with random pointer with O(1) extra space beyond the copied list</a>
-- [ ] <a href="https://leetcode.com/problems/linked-list-cycle-ii">Linked List Cycle II</a>
-- [ ] <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii">Remove Duplicates II</a>
-- [ ] <a href="https://leetcode.com/problems/reorder-list">Reorder list</a>
-- [ ] <a href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge k sorted lists</a>
+- [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+- [ ] [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
+- [ ] [Add two numbers (MSF)](https://leetcode.com/problems/add-two-numbers-ii)
+- [ ] [Copy list with random pointer with O(1) extra space beyond the copied list](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
+- [ ] [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+- [ ] [Reorder list](https://leetcode.com/problems/reorder-list)
+- [ ] [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
