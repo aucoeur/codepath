@@ -48,12 +48,12 @@ E - Evaluate
   
 ### Practice
 - [x] [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) - Medium
-- [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - Medium
+- [x] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - Medium
 
 ## Session #2
 
 ### Practice
-- [ ] [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Medium
+- [x] [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Medium
 - [ ] [Rotate List](https://leetcode.com/problems/rotate-list/) - Medium
 
 ## Additional Exercises 
