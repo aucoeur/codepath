@@ -1,8 +1,8 @@
 # Unit 1: Linked Lists
 ## TODO
 - [x] [PreWork](#PreWork)
-- [ ] [Session #1](#Session-1)
-- [ ] [Session #2](#Session-2)
+- [x] [Session #1](#Session-1)
+- [x] [Session #2](#Session-2)
 - [ ] HackerRank
 - [ ] [Additional Exercises](#Additional-Exercises)
 
@@ -54,16 +54,16 @@ E - Evaluate
 
 ### Practice
 - [x] [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Medium
-- [ ] [Rotate List](https://leetcode.com/problems/rotate-list/) - Medium
+- [x] [Rotate List](https://leetcode.com/problems/rotate-list/) - Medium
 
 ## Additional Exercises 
 (Optional)
 
-- [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) - Easy
 - [ ] [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
 - [ ] [Add two numbers (MSF)](https://leetcode.com/problems/add-two-numbers-ii)
 - [ ] [Copy list with random pointer with O(1) extra space beyond the copied list](https://leetcode.com/problems/copy-list-with-random-pointer/)
-- [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
+- [x] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
 - [ ] [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
 - [ ] [Reorder list](https://leetcode.com/problems/reorder-list)
 - [ ] [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
