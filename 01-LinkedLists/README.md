@@ -60,10 +60,9 @@ E - Evaluate
 (Optional)
 
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) - Easy
-- [ ] [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
-- [ ] [Add two numbers (MSF)](https://leetcode.com/problems/add-two-numbers-ii)
+- [x] [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists) - Easy
+- [x] [Add two numbers (MSF)](https://leetcode.com/problems/add-two-numbers-ii) - Medium
 - [ ] [Copy list with random pointer with O(1) extra space beyond the copied list](https://leetcode.com/problems/copy-list-with-random-pointer/)
-- [x] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
-- [ ] [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+- [x] [Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) - Medium
 - [ ] [Reorder list](https://leetcode.com/problems/reorder-list)
 - [ ] [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)

@@ -58,7 +58,6 @@ class Solution:
         return dummy.next
 
 
-
 if __name__ == '__main__':
     l1 = generateLinkedList([2,4,6])
     l2 = generateLinkedList([1,3,5])
