@@ -83,6 +83,23 @@ class Solution:
 
         return dummy.next
 
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        """
+        Recursive solution
+        """
+        # Base case: len(head) <= 1
+        if not head or not head.next:
+            return head
+
+        if head.val != head.next.val:
+            head.next = self.deleteDuplicates(head.next)
+            return head
+
+        current = head
+        while current.next and current.val == current.next.val:
+            current = current.next
+        return self.deleteDuplicates(current.next)
 
 if __name__ == '__main__':
     # head = generateLinkedList([1,1,1])
