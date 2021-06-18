@@ -25,8 +25,8 @@
 ### Required Challenges
 - [x] <a href="https://leetcode.com/problems/isomorphic-strings/description/">Isomorphic strings</a> - Hash table - Easy
 - [x] <a href="https://leetcode.com/problems/jewels-and-stones/description/">Jewels and stones</a> - Hash table - Easy
-- [x] <a href="https://leetcode.com/problems/happy-number/description/">Happy number</a> - Hash set
-- [ ] <a href="https://leetcode.com/problems/top-k-frequent-words/description/">Top K frequent words</a> - Heap
+- [x] <a href="https://leetcode.com/problems/happy-number/description/">Happy number</a> - Hash set - Easy
+- [x] <a href="https://leetcode.com/problems/top-k-frequent-words/description/">Top K frequent words</a> - Heap - Medium
 - [ ] <a href="https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/">Find k pairs with smallest sums</a> - Heap
 
 ## Session #1
