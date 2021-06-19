@@ -3,7 +3,7 @@
 - [x] [PreWork](#PreWork)
 - [x] [Session #1](#Session-1)
 - [x] [Session #2](#Session-2)
-- [ ] HackerRank
+- [x] HackerRank ([Solutions](https://hackmd.io/@YargtAEbS02eDE3upLu27g/r1STgGo2L))
 - [ ] [Additional Exercises](#Additional-Exercises)
 
 ## Goals

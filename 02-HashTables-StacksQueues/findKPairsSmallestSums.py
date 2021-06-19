@@ -1,6 +1,7 @@
 """ https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
 373. Find K Pairs with Smallest Sums    Medium
 
+06/19/2021 13:17	Accepted
 
 You are given two integer arrays nums1 and nums2 sorted in ascending order and an integer k.
 
@@ -31,28 +32,30 @@ Constraints:
 """
 
 from typing import List
-from heapq import heappush, heapreplace
+from heapq import heappush, heapreplace, nsmallest
 
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
         kSmallSums = []
 
-        pointer = 0
-        pointer2 = 0
+        for pointer in range(len(nums1)):
+            for pointer2 in range(len(nums2)):
 
-        while pointer < len(nums1):
-            while pointer2 < len(nums2):
                 currentSum = nums1[pointer] + nums2[pointer2]
+
+                # heap only holds maxMin len(k)
                 if len(kSmallSums) < k:
-                    # this wont account for duplicate sums i thnk
+                    # negative priority to comply with maxHeap
                     heappush(kSmallSums, (-currentSum, [nums1[pointer], nums2[pointer2]]))
-                elif currentSum < kSmallSums[0][0]:
-                    heapreplace(kSmallSums, currentSum)
-                pointer2 += 1
-            pointer += 1
+                # peek at top of maxHeap
+                elif currentSum < -kSmallSums[0][0]:
+                    heapreplace(kSmallSums, (-currentSum, [nums1[pointer], nums2[pointer2]]))
+                # since sorted, break early if larger sum
+                else:
+                    # print(nums1[pointer],nums2[pointer2])
+                    break
 
-        return kSmallSums
-
+        return [x[1] for x in kSmallSums]
 
 
 if __name__ == '__main__':
