@@ -34,8 +34,8 @@ Communication: https://www.interviewcake.com/coding-interview-tips
 
 ### Practice
 - [x] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) - Medium
-- [ ] [Min Stack](https://leetcode.com/problems/min-stack/) - Easy
-- [ ] [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) - Easy
+- [x] [Min Stack](https://leetcode.com/problems/min-stack/) - Easy
+- [x] [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) - Easy
 - [ ] Bonus: [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) - Medium
   
 ### Walkthrough
