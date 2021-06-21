@@ -3,7 +3,7 @@
 ## TODO
 
 - [x] [PreWork](#PreWork)
-- [ ] [Session #1](#Session-1)
+- [x] [Session #1](#Session-1)
 - [ ] [Session #2](#Session-2)
 - [ ] HackerRank
 - [ ] [Additional Exercises](#Additional-Exercises)
@@ -71,5 +71,5 @@ Practice UMPIRE method & write pseudocode
   
 
 ## Additional Exercises
-- [ ] [Implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
-- [ ] [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+- [x] [Implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) - Easy
+- [ ] [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) - Medium
