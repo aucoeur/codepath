@@ -4,9 +4,9 @@
 
 - [x] [PreWork](#PreWork)
 - [x] [Session #1](#Session-1)
-- [ ] [Session #2](#Session-2)
+- [x] [Session #2](#Session-2)
 - [ ] HackerRank
-- [ ] [Additional Exercises](#Additional-Exercises)
+- [x] [Additional Exercises](#Additional-Exercises)
 
 ## Goals
 - Test understanding of run times of each data structure
@@ -55,7 +55,7 @@ Communication: https://www.interviewcake.com/coding-interview-tips
 - UMPIRE: https://hackmd.io/@zXKevDKYS9a3T9goj4clQA/S1CaDzIiV?type=view
 ### Practice
 Practice UMPIRE method & write pseudocode
-- [ ] [Brick Wall](https://leetcode.com/problems/brick-wall/)
+- [x] [Brick Wall](https://leetcode.com/problems/brick-wall/)
 - [ ] Find A Celebrity
   > Suppose you are at a party with n people (labeled from `0` to `n - 1`) and among them, there may exist one celebrity. The definition of a celebrity is that all the other `n - 1` people know him/her but he/she does not know any of them.    
   >
@@ -72,4 +72,4 @@ Practice UMPIRE method & write pseudocode
 
 ## Additional Exercises
 - [x] [Implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) - Easy
-- [ ] [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) - Medium
+- [x] [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) - Medium
