@@ -51,8 +51,11 @@ Communication: https://www.interviewcake.com/coding-interview-tips
 | **Implement** | - Implement the solution (make sure to know what level of detail the interviewer wants) |
 | **Review** | - Re-check that your algorithm solves the problem by running through important examples<br />- Go through it as if you are debugging it, assuming there is a bug
 | **Evaluate** | - Finish by giving space and run-time complexity <br/>- Discuss any pros and cons of the solution
+
 ### Walkthrough
 - UMPIRE: https://hackmd.io/@zXKevDKYS9a3T9goj4clQA/S1CaDzIiV?type=view
+- Brick Wall & Find A Celebrity Walkthroughs: https://hackmd.io/onj1sIIsQtONLkZQ1uB8qQ#Week-2---Advanced-Guide
+  
 ### Practice
 Practice UMPIRE method & write pseudocode
 - [x] [Brick Wall](https://leetcode.com/problems/brick-wall/)
