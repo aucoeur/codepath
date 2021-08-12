@@ -1,6 +1,7 @@
 """ https://leetcode.com/problems/daily-temperatures/description/
 739. Daily Temperatures - Medium
 
+08/11/2021 22:38	Accepted https://leetcode.com/submissions/detail/537204353/
 08/11/2021 TLE https://leetcode.com/submissions/detail/537195450/testcase/
 
 Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
@@ -57,7 +58,23 @@ class Solution:
 
         return counts
 
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        counts = [0] * (len(temperatures))
+        stack = []
 
+        stack.append(len(temperatures) - 1)
+        counts[len(temperatures) - 1] = 0
+
+        i = len(temperatures) - 2
+
+        while i >= 0:
+            while stack and temperatures[i] >= temperatures[stack[-1]]:
+                stack.pop()
+            counts[i] = stack[-1] - i if stack else 0
+            stack.append(i)
+            i -= 1
+        return counts
 
 if __name__ == '__main__':
     # temperatures = [73, 74, 75, 71, 69, 72, 76, 73]

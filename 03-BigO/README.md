@@ -13,8 +13,8 @@
 - https://courses.codepath.org/courses/advanced_software_eng/unit/3#!links
   
 ### Required Challenges
-- [ ] [Sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) - Medium
-- [ ] [Daily temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+- [x] [Sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) - Medium
+- [x] [Daily temperatures](https://leetcode.com/problems/daily-temperatures/description/) - Medium
   
 ## Session #1
 ### Walkthrough
