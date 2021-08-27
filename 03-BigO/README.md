@@ -18,7 +18,7 @@
   
 ## Session #1
 ### Walkthrough
-- [ ] [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
+- [ ] [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) - Hard
 - [ ] [Basic Calc](https://leetcode.com/problems/basic-calculator/)
 - [ ] [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
